@@ -3,9 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table } from 'reactstrap';
 
-
-
-function App() {
+function App(){
 return <>
 
 <img className="imagem" src="fundo.png"/>
