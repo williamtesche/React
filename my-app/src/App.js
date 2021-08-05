@@ -1,11 +1,14 @@
 import './App.css';
 import React from 'react';
-import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Table } from 'reactstrap';
 
 
+function App() {
+return <>
 
-<Table striped bordered hover size="sm">
+<img className="imagem" src="fundo.png"/>
+<Table className="opa" striped bordered hover size="dark">
 <thead>
 <tr>
  <th>#</th>
@@ -35,18 +38,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 </tbody>
 </Table>
 
-function App() {
-  return <h1>
-    <img className="imagem" src="fundo.png"/>
-  </h1>
-
-  
-}
-
-  
- 
-  
 
 
+   
+    </>
 
+
+  }
 export default App;

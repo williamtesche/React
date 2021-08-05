@@ -36,14 +36,31 @@
     transform: rotate(360deg);
   }
 }
-h1{
-  background-color: black;
+.opa{
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
 }
 .imagem{
-  height: 50vh;
+  height: 30vh;
   margin-left: 500px;
-  height:350px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  
+ 
+  
+
 }
+.tabela{
+  color: #0049db;
+  background-color: #282c34;
+  font-size: 500px;
+  
+  
+}
+#root{
+  background-color: #000000;
+}
+
+
 
 
